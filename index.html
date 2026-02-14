@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mahmoud Khafagy - Engineer focused on Applied AI/ML, production GenAI systems, and product delivery."
+    />
+    <title>Mahmoud Khafagy | Applied AI/ML Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-blobs" aria-hidden="true">
+      <span class="blob blob-a"></span>
+      <span class="blob blob-b"></span>
+      <span class="blob blob-c"></span>
+    </div>
+    <div class="cursor-layer" aria-hidden="true">
+      <span class="cursor-dot"></span>
+      <span class="cursor-ring"></span>
+    </div>
+    <div class="goof-layer" aria-hidden="true">
+      <span class="goof-sticker g1">🤖</span>
+      <span class="goof-sticker g2">🧠</span>
+      <span class="goof-sticker g3">⚡</span>
+      <span class="goof-sticker g4">🎮</span>
+      <div class="scroll-buddy">
+        <span class="buddy-face">😎</span>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <a class="logo" href="#home">MK//ML</a>
+      <nav>
+        <a href="#projects">Flagship</a>
+        <a href="#experience">Experience</a>
+        <a href="#interests">Interests</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section reveal">
+        <p class="kicker">OPEN TO APPLIED AI/ML + GENAI ENGINEERING ROLES</p>
+        <h1>
+          I TURN <span class="stroke">COMPLEX SYSTEMS</span> INTO
+          <span id="rotating-word">AGENTS</span> THAT SHIP.
+        </h1>
+        <p class="lede">
+          I am Mahmoud Khafagy, a software engineer with 3+ years building
+          production backend systems and applied AI features across Python,
+          .NET, Swift, SQL, AWS, and PyTorch. I build practical products that
+          users trust and teams can maintain.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="assets/Mahmoud_Khafagy_resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+          <a class="btn btn-ghost" href="https://github.com/Makhafagy" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/mahmoud-khafagy-mo/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="mailto:makhafagy11@gmail.com">Email Me</a>
+        </div>
+      </section>
+
+      <section class="metrics section reveal">
+        <article class="metric-card">
+          <p class="metric-label">Years in production engineering</p>
+          <p class="metric-value"><span data-target="3">0</span>+</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Currently targeting</p>
+          <p class="metric-value metric-text">Applied AI/ML + GenAI roles</p>
+        </article>
+        <article class="metric-card">
+          <p class="metric-label">Public GitHub repositories</p>
+          <p class="metric-value" data-target="12">0</p>
+        </article>
+      </section>
+
+      <section id="projects" class="section reveal">
+        <div class="section-head">
+          <p class="kicker">FLAGSHIP + SELECTED BUILDS</p>
+          <h2>Proof I Build Real Products</h2>
+          <p>
+            True Reminder is my flagship product, plus selected backend and platform work.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Flagship Product | Private Codebase</p>
+            <h3>True Reminder (iOS + PlannerAI)</h3>
+            <p>
+              More than a side project: this is a long-term product I designed,
+              built, and shipped end-to-end with iOS, backend, and AI systems.
+            </p>
+            <ul>
+              <li>Owned product direction, architecture, and implementation</li>
+              <li>Shipped JSON-schema-validated action generation</li>
+              <li>Added retries/fallbacks and ambiguity guardrails</li>
+              <li>Integrated App Attest and quota-aware controls</li>
+            </ul>
+            <div class="project-links">
+              <button
+                class="story-btn is-active"
+                type="button"
+                data-note="Story mode: I wanted a reminder app that could schedule multiple future dates and times under one reminder, with real ringing behavior, not just passive notifications. I never found one that matched that workflow, so I built it."
+              >
+                Story mode
+              </button>
+              <button
+                class="story-btn"
+                type="button"
+                data-note="Boss battle: navigating iOS notification scheduling constraints (for example, pending local notification limits), plus making shared spaces sync and notify reliably whether users are in foreground, background, or fully closed."
+              >
+                Boss battle
+              </button>
+            </div>
+            <p class="project-note" aria-live="polite">
+              Story mode: I wanted a reminder app that could schedule multiple future dates and times under one reminder, with real ringing behavior, not just passive notifications. I never found one that matched that workflow, so I built it.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">FastAPI + AWS Lambda + PyTorch</p>
+            <h3>PlannerAI Backend in Production</h3>
+            <p>
+              Deployed a FastAPI PlannerAI backend on AWS Lambda behind API
+              Gateway with telemetry, transaction verification, and subscription
+              quota metering.
+            </p>
+            <ul>
+              <li>Implemented structured logs and correlation IDs</li>
+              <li>Tracked latency metrics (p50/p95) in CloudWatch</li>
+              <li>Added category routing prototype with PyTorch</li>
+            </ul>
+            <div class="project-links">
+              <button
+                class="story-btn is-active"
+                type="button"
+                data-note="Story mode: my friends and I kept running into the same problem, no plans and no momentum. I built PlannerAI to generate group plans inside our shared space so everyone can follow through together."
+              >
+                Story mode
+              </button>
+              <button
+                class="story-btn"
+                type="button"
+                data-note="Boss battle: enforcing strict, abuse-resistant quotas while layering in rate limiting, App Attest, backend hardening, and OCR support without hurting the user experience."
+              >
+                Boss battle
+              </button>
+            </div>
+            <p class="project-note" aria-live="polite">
+              Story mode: my friends and I kept running into the same problem, no plans and no momentum. I built PlannerAI to generate group plans inside our shared space so everyone can follow through together.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <p class="project-type">.NET Core + SQL Server + Vue.js</p>
+            <h3>Naval Air Warfare Center Systems</h3>
+            <p>
+              Built and maintained microservices used for budgeting and
+              operational reporting in a mission-critical environment.
+            </p>
+            <ul>
+              <li>Reduced average API response time by around 20%</li>
+              <li>Improved SQL query performance by 15-20%</li>
+              <li>Optimized schema and stored procedure workflows</li>
+            </ul>
+            <div class="project-links">
+              <button
+                class="story-btn is-active"
+                type="button"
+                data-note="Story mode: I relocated to Ridgecrest (basically Death Valley energy), with the nearest major city around 70 miles away, to work on mission-critical projects."
+              >
+                Story mode
+              </button>
+              <button
+                class="story-btn"
+                type="button"
+                data-note="Boss battle: summer temperatures could push around 120F, and even the short walk from the car to the office felt intense. Still shipped features, including the Image linker addition."
+              >
+                Boss battle
+              </button>
+            </div>
+            <p class="project-note" aria-live="polite">
+              Story mode: I relocated to Ridgecrest (basically Death Valley energy), with the nearest major city around 70 miles away, to work on mission-critical projects.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <div class="section-head">
+          <p class="kicker">CAREER SNAPSHOT</p>
+          <h2>Experience + Education</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Software Engineer | 2023-2025</p>
+            <h3>Naval Air Systems Command (NAWCWD)</h3>
+            <p>
+              Delivered backend systems for resource tracking, reporting, and
+              performance optimization at production scale.
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-type">Software Engineer | 2022-2023</p>
+            <h3>Seminaut Inc.</h3>
+            <p>
+              Built Python/Flask/React features, recommendation workflows, and
+              analytics-backed product insights.
+            </p>
+          </article>
+          <article class="project-card">
+            <p class="project-type">M.S. in CS (AI) | Expected May 2027</p>
+            <h3>Georgia Institute of Technology</h3>
+            <p>
+              Advanced AI coursework while building production software systems
+              and shipping applied GenAI features.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="interests" class="section reveal">
+        <div class="section-head">
+          <p class="kicker">INTEREST MAP</p>
+          <h2>What I Love Building in AI/ML</h2>
+        </div>
+        <div class="interest-wrap">
+          <div class="interest-cloud" role="tablist" aria-label="Interests">
+            <button class="interest-pill is-active" data-interest="genai">
+              Production GenAI
+            </button>
+            <button class="interest-pill" data-interest="mlpipelines">
+              ML Pipelines
+            </button>
+            <button class="interest-pill" data-interest="evaluation">
+              Model Evaluation
+            </button>
+            <button class="interest-pill" data-interest="appliedresearch">
+              Applied Research
+            </button>
+            <button class="interest-pill" data-interest="funfacts">
+              Interesting Facts
+            </button>
+            <button class="interest-pill" data-interest="productai">
+              Product + AI
+            </button>
+          </div>
+          <article class="interest-panel" id="interest-panel">
+            <h3>Production GenAI</h3>
+            <p>
+              I focus on useful GenAI systems: structured outputs, guardrails,
+              and reliable behavior under real user traffic.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="marquee section" aria-label="Tech stack">
+        <div class="track">
+          <span>Python</span>
+          <span>FastAPI</span>
+          <span>AWS Lambda</span>
+          <span>PyTorch</span>
+          <span>SwiftUI</span>
+          <span>CloudKit</span>
+          <span>Vision OCR</span>
+          <span>.NET Core</span>
+          <span>SQL Server</span>
+          <span>PostgreSQL</span>
+          <span>DynamoDB</span>
+          <span>Python</span>
+          <span>FastAPI</span>
+          <span>AWS Lambda</span>
+          <span>PyTorch</span>
+          <span>SwiftUI</span>
+          <span>CloudKit</span>
+          <span>Vision OCR</span>
+          <span>.NET Core</span>
+          <span>SQL Server</span>
+          <span>PostgreSQL</span>
+          <span>DynamoDB</span>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <p class="kicker">LET'S BUILD SOMETHING REAL</p>
+        <h2>Open to Applied AI/ML Engineer roles.</h2>
+        <p>
+          Based in California, USA and willing to relocate. I enjoy
+          ownership-heavy teams where shipping, reliability, and product
+          quality all matter.
+        </p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:makhafagy11@gmail.com">makhafagy11@gmail.com</a>
+          <a class="contact-card" href="https://github.com/Makhafagy" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="contact-card" href="https://www.linkedin.com/in/mahmoud-khafagy-mo/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="contact-card" href="assets/Mahmoud_Khafagy_resume.pdf" target="_blank" rel="noreferrer">Resume PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>California, USA | Built with intent. Designed to get interviews.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
