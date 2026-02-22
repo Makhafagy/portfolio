@@ -1,42 +1,46 @@
-# Wild Portfolio (Netlify Ready)
+# Mahmoud Khafagy Portfolio
 
-This is your standalone static portfolio site.
+This repository contains the source code for Mahmoud Khafagy's professional portfolio website.
 
-## Personalized data already wired
+## About
 
-- Name, summary, and project copy pulled from your resume.
-- GitHub: `https://github.com/Makhafagy`
-- LinkedIn: `https://www.linkedin.com/in/mahmoud-khafagy-mo/`
-- Resume file included at `assets/Mahmoud_Khafagy_resume.pdf`
+I am a Software Engineer focused on backend systems, cloud services, and applied AI integrations. My core stack includes Python, .NET/C#, SQL, and AWS.
 
-## Quick edits (optional)
+Key highlights:
 
-- Update copy in `index.html`
-- Update interactions/content in `script.js`
-- Keep styles in `styles.css`
+- 3+ years building production software systems
+- Backend/API performance improvements in mission-critical environments
+- Full-stack product delivery across mobile, backend, and cloud
+- U.S. Citizen with currently held U.S. security clearance eligibility (inactive, reactivation eligible)
 
-## Run locally
+## Portfolio Focus Areas
 
-```bash
-cd /Users/mahmoud/Desktop/TrueReminder/wild-portfolio
-python3 -m http.server 8080
-```
+- Backend engineering (APIs, data systems, reliability)
+- Cloud architecture and operations (AWS Lambda, API Gateway, observability)
+- Applied AI feature integration with production safeguards
+- Product engineering and delivery execution
 
-Open `http://localhost:8080`.
+## Tech Stack
 
-## Deploy to Netlify
+- Languages: Python, C#, SQL, JavaScript/TypeScript, Swift
+- Backend: .NET Core, FastAPI, Flask, SQLAlchemy, REST APIs
+- Cloud/Data: AWS Lambda, API Gateway, CloudWatch, Docker, SQL Server, PostgreSQL, DynamoDB
+- Tools: Git, Jira, Confluence
 
-### Option 1: Drag and drop
+## Repository Structure
 
-1. Go to Netlify dashboard.
-2. Open **Sites**.
-3. Drag the `wild-portfolio` folder contents into Netlify deploy area.
+- `index.html` - portfolio content and layout
+- `styles.css` - styling and visual system
+- `script.js` - client-side interactions
+- `assets/` - static assets (including resume)
+- `netlify.toml` - deployment configuration
 
-### Option 2: Connect this repo
+## Links
 
-1. In Netlify, choose **Add new site** -> **Import an existing project**.
-2. Set **Base directory** to `wild-portfolio`.
-3. Leave **Build command** empty.
-4. Set **Publish directory** to `.`.
+- GitHub: [https://github.com/Makhafagy](https://github.com/Makhafagy)
+- LinkedIn: [https://www.linkedin.com/in/mahmoud-khafagy-mo/](https://www.linkedin.com/in/mahmoud-khafagy-mo/)
 
-Netlify will use `wild-portfolio/netlify.toml`.
+## Contact
+
+- Email: makhafagy11@gmail.com
+- Location: California, USA
